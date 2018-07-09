@@ -32,7 +32,7 @@ Invoke-DbcCheck -AllChecks -passthru |  Update-DbcPowerBiDataSource
 Start-DbcPowerBi
 
 #Config - Set the computer we want to run on, comma seperated is fine if you have many, make sure though you have permission.
-Set-DbcConfig app.computername SQLRich-PC
+Set-DbcConfig app.computername computername
 
 #Config - Set the instance we want to run against, comma seperated is fine.
 Set-DbcConfig app.sqlinstance localhost
